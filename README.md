@@ -5,3 +5,5 @@ Web statis sederhana untuk bermain suit dengan melawan komputer. Web ini dibuat 
 - Node JS
 - Express JS
 - EJS View Engine
+Untuk menjalankan aplikasi ini, gunakan command berikut:
+node app
