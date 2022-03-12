@@ -1,0 +1,332 @@
+/* FONT RULES */
+
+@font-face{
+	font-family: "Bebas Neue Bold";
+	src: url('../font/BebasNeue-Bold.otf');
+}
+
+@font-face{
+	font-family: "Open Sans Bold";
+	src: url('../font/OpenSans-Bold.ttf');
+}
+
+@font-face{
+	font-family: "Open Sans Regular";
+	src: url('../font/OpenSans-Regular.ttf');
+}
+
+body {
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+}
+
+.font-h1 {
+	font-family: "Open Sans Bold";
+	font-size: calc(40px + 2vw);
+}
+
+.font-h2 {
+	font-family: "Open Sans Bold";
+	font-size: calc(20px + 2vw);
+}
+
+.font-h3 {
+	font-family: "Open Sans Bold";
+	font-size: calc(10px + 1vw);
+}
+
+.font-subtext {
+	font-family: "Open Sans Regular";
+	font-size: 14px;
+}
+
+.font-button {
+	font-family: "Open Sans Bold";
+	font-size: 16px;
+}
+
+.font-xs {
+	font-family: "Open Sans Regular";
+	font-size: 12px;
+}
+
+/* MAIN STYLE */
+
+body {
+	color: white;
+	background-color: #9C835F;
+
+	letter-spacing: 1.5px;
+}
+
+section {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(247, 176, 58) !important;
+}
+
+.orange-title {
+	color: rgb(247, 176, 58);
+}
+
+.orange-button {
+	background-color: rgb(247, 176, 58);
+	padding: 10px 60px;
+}
+
+.orange-button:hover {
+	background-color: rgba(247, 176, 58, 0.8);
+	color: black !important;
+}
+
+.gray-color {
+	color: #777;
+}
+
+.black-title {
+	color: black;
+}
+
+
+
+/* NAVBAR */
+
+nav {
+	z-index: 9999;
+}
+
+.bg-nav-project {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.navbar {
+	padding: 20px 50px;
+}
+
+.navbar > div > a {
+	margin-right: 100px;
+}
+
+.navbar > div > a:hover {
+	margin-right: 100px;
+}
+
+.nav-link {
+	margin: 0 15px;
+	color: white !important;
+}
+
+/* CALL TO ACTION */
+
+.bg-main-screen {
+	background-image: 
+		radial-gradient(
+			189.96% 61.18% at 50% 38.82%, 
+			rgba(255, 181, 72, 0) 0%, 
+			rgba(52, 44, 29, 0.80319) 73.22%, 
+			#08090A 99.74%),
+		url('../img/main-bg.jpg');
+}
+
+.the-story {
+	margin-bottom: -5px;
+}
+
+/* GAMEPLAY OPTIONS */
+
+.bg-the-games {
+	background-image: 
+		radial-gradient(
+			136.03% 54.57% at 50% 48.04%, 
+			rgba(255, 255, 255, 0) 0%, 
+			rgba(0, 0, 0, 0) 60.63%, 
+			#080A0B 99.74%),
+		url('../img/the-games-bg.jpg');
+}
+
+.img-carousel {
+	width: 80%;
+}
+
+button.rounded-circle {
+	width: 10px !important;
+	height: 10px !important;
+	margin: 0 10px 0 10px !important;
+}
+
+/* GAME FEATURE */
+
+.bg-features {
+	background-image: 
+		radial-gradient(
+			51.1% 80.48% at 30.85% 53.65%,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(0, 0, 0, 0) 19.2%,
+			rgba(4, 5, 6, 0.520671) 47.48%,
+			#080A0B 99.74%),
+		url('../img/features.jpg');
+}
+
+.feature-desc {
+	margin: 10px 0 0 20px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #777;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #777;
+    left: 22.5px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+}
+
+ul.timeline > li > a:hover {
+	color: white !important;
+}
+
+/* SYSTEM REQ */
+
+.bg-system-req {
+	background-image: 
+		radial-gradient(
+			33.26% 45% at 64.32% 47.1%, 
+			rgba(255, 255, 255, 0) 3.36%, 
+			rgba(0, 0, 0, 0) 19.22%, 
+			#080A0B 99.74%),
+		url('../img/requirements.png');
+}
+
+table {
+	border: 0.5px solid rgba(204,204,204,0.3) !important;
+	margin: 50px 0 0 0;
+	color: white !important;
+}
+
+/* TOP SCORE */
+
+.bg-top-scores {
+	background-image: 
+		radial-gradient(
+			70.52% 37.27% at 24.21% 47.47%, 
+			rgba(35, 15, 15, 0) 0%, 
+			rgba(0, 0, 0, 0) 51.1%, 
+			#080A0B 99.74%),
+		url('../img/top-score-bg.png');
+}
+
+.card {
+	background-color: #222;
+	margin: 10px 0 10px 0;
+}
+
+.thumb-img {
+	box-shadow: 5px 3px 0 rgb(247, 176, 58);
+}
+
+.testimoni {
+	margin: 15px 0 0 0;
+}
+
+/* NEWSLETTER SUBSCRIBE */
+
+.bg-subscribe {
+	background-image: url('../img/subscribe-bg.png');
+}
+
+.form-control {
+	background-color: #222  !important;
+	border-color: #222 !important;
+	padding: 10px;
+	color: rgb(247, 176, 58) !important;
+}
+
+/* FOOTER */
+
+.footer-icon {
+	margin: 0 0 0 35px;
+}
+
+.footer-space {
+	line-height: 70px;
+	border-bottom: 1px solid #777;
+}
+
+.footer-bottom {
+	padding: 0 100px 30px 100px;
+}
+
+
+
+/* SUIT GAME */
+
+.back-img {
+	width: 25px;
+}
+
+.logo-img {
+	width: 50px;
+}
+
+.suit-img > img {
+	width: calc(20px + 8vw);
+	margin-top: 30px;
+}
+
+.styling-info {
+	background-color: #4C9654;
+	color: white !important;
+	padding: 50px;
+	font-size: calc(20px + 2vw) !important;
+}
+
+.info {
+	color: red;
+	font-size: calc(40px + 2vw);
+}
+
+#player > img:active {
+	background-color: #C4C4C4;
+}
+
+.yang-dipilih {
+	background-color: #C4C4C4;
+}
+
+.refresh {
+	width: 50px;
+}
